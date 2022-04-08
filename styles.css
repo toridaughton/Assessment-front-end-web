@@ -1,0 +1,61 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.fav-btns {
+	background-color: yellow;
+	height: 100px;
+	width: 150px;
+	border: lightcoral dashed 5px;
+	border-radius: 15%;
+}
+
+
+#neighborhood-places {
+	position: relative;
+	display: flexbox;
+	padding: 80px;
+	background-color: lavender;
+	height: 350px;
+	width: 500px;
+}
+
+#random-link {
+	position: absolute;
+	bottom: 100px
+}

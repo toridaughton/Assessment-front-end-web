@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	        <li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
+
+	    </ol>
+	</nav>
+
+	<content>
+		<h1>Hello World</h1>
+		<!-- insert hello world here -->
+
+		<img id='cat' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgnL-6fb5PhgkCkH3odiqgPmhqoWm6HeRjwQ&usqp=CAU">
+
+		<p>
+			Welcome Young One!
+			<ul>
+				<li>
+					You are wise!
+				</li>
+				<li>
+					You are funny!
+				</li>
+				<li id="fabCompliment">
+					You are fabulous! ;)
+				</li>
+			</ul>
+		</p>
+
+		<h2>Contact Us</h2>
+		<form id="contact">
+			How did you hear about us?
+			<div>
+				<label for="google">Google</label><input type="radio" name="who-to-thank" value="google" id="google"/>
+				<label for="friend">A Friend</label><input type="radio" name="who-to-thank" value="friend" id="friend"/>
+				<label for="other">Other</label><input type="radio" name="who-to-thank" value="other" id="other"/>
+				</div>
+			Your name:
+			<input type="text">
+
+			Message:
+			<input type="textarea">
+
+			<input type="submit">
+
+		</form>
+
+	</content>
+
+
+	<script src="about.js"></script>
+
+</body>
+</html>
